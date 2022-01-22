@@ -26,7 +26,7 @@ jobs:
           push: true
           tags: |
             andersonalbuq/conversao-temperatura:latest
-            andersonalbuq/conversao-temperatur:${{ github.run_number }}
+            andersonalbuq/conversao-temperatura:${{ github.run_number }}
   CD:
     needs: [CI]
     runs-on: ubuntu-latest
